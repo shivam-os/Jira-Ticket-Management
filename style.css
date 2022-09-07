@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  border: 2px solid gold;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Toolbox in navigation bar */
+
+.tools-container {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tools-priority-container {
+  height: 3rem;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.color-box {
+  height: 3rem;
+  width: 3rem;
+}
+
+.tools-action-container {
+  height: 3rem;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.tools-action {
+  height: 3rem;
+  width: 3rem;
+}
+
+
+
